@@ -1,5 +1,5 @@
 {
-    "name": "fadoe/fadoe-clock",
+    "name": "fadoe/clock",
     "description": "Interface to get current php datetime",
     "type": "library",
     "license": "MIT",
