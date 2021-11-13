@@ -1,0 +1,21 @@
+{
+    "name": "fadoe/fadoe-clock",
+    "description": "Interface to get current php datetime",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Falk Döring",
+            "email": "falk.doering@fadoe.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FaDoe\\Clock\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}
