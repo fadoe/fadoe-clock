@@ -10,12 +10,23 @@
             "email": "falk.doering@fadoe.de"
         }
     ],
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
     "autoload": {
         "psr-4": {
             "FaDoe\\Clock\\": "src/"
         }
     },
-    "require": {
-        "php": "^8.0"
+    "autoload-dev": {
+        "psr-4": {
+            "FaDoe\\Clock\\": "test/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
     }
 }
