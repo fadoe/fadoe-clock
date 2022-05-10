@@ -42,7 +42,6 @@ final class SystemClockTest extends TestCase
             $date,
         ];
     }
-
     private static function secondsWithMicroseconds(DateTimeInterface $timestamp):float
     {
         return (float) $timestamp->format('U.u');
